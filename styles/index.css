@@ -1,0 +1,46 @@
+.subtitle {
+    margin: 15px;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    /* auto por los costados */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.inTitle {
+    font-size: 24px;
+    padding: 0 0 0 20px;
+    margin: 5px;
+}
+
+.image {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 25%;
+    height: auto;
+}
+
+.image2 {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 25%;
+    height: auto;
+}
+
+.article {
+    float: left;
+    width: 70%;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCC;
+}

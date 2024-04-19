@@ -3,6 +3,8 @@ body {
     background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
     padding: 0;
     margin: 0;
+    /* le voy a agregar espacio al body abajo para el footer -> porque al footer lo fijé abajo */
+    padding-bottom: 150px;
 }
 
 header {
@@ -10,9 +12,11 @@ header {
 }
 
 ul {
+    /* le sacamos los puntos */
     list-style-type: none;
     margin: 0;
     padding: 0;
+    /* para que no aparezcan las barras de navegación */
     overflow: hidden;
     background-color: #333;
 }
@@ -25,56 +29,44 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    /* espacio dentro de link */
     padding: 14px 16px;
+    /* le saco el subrayado */
     text-decoration: none;
 }
 
+/* not active -> para que no se aplique sobre el home */
 li a:hover:not(.active) {
     background-color: #ac48a4;
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #f426d8;
 }
 
 h1 {
     background-color: rgb(26, 26, 26);
     padding: 10px;
+    /* para que quede pegado arriba */
     margin: 0;
     color: #f426d8;
     text-align: center;
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 33vw;
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-    width: 300px;
-}
-
-.centrado {
-    display: flex;
-    justify-content: center;
-}
 .footer {
     background-color: #333;
     color: #FFF;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     clear: both;
+    /* voy a hacer que se quede pegado el footer abajo */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    /* collapse -> para que no haya borde doble */ 
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    background-color: #FFF;
+}
+
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+    text-align: left;
+    background-color: rgb(162, 162, 162);
+}
+
+td {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+tr:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+
+
